@@ -1,0 +1,64 @@
+h1{
+    font-family: 'Montez', cursive;
+    color: blue;
+    padding: 0cm;
+    margin: 0cm;
+}
+h4{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: normal;
+    border-width: 0cm;
+    padding: 0cm;
+    margin: 0cm;
+    font-size: medium;
+    font-weight: 50;
+}
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  background-color:blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.SignUp{
+    float: right;
+    width:100px;
+  }
+.SignIn{
+  float: right;
+  width:100px;
+  }
+.allPost{
+  width:120px;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  background-color: darkgoldenrod;
+  color: black;
+}
+.createPost{
+  width:120px;
+  position: absolute;
+  top:50%;
+  left:52%;
+  background-color: darkgoldenrod;
+  color: black;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.btn-primary{
+  background-color: green;
+}
