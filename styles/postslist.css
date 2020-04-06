@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Montez', cursive;
+    color: blue;
+    padding: 0cm;
+    margin: 0cm;
+}
+h4{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: normal;
+    border-width: 0cm;
+    padding: 0cm;
+    margin: 0cm;
+    font-size: medium;
+    font-weight: 50;
+}
+body {
+  background-color: #ffeedd;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  background-color:blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.SignUp{
+    float: right;
+    width:100px;
+  }
+.SignIn{
+  float: right;
+  width:100px;
+  }
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.btn-primary{
+  background-color: green;
+}
